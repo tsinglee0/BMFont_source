@@ -1,0 +1,112 @@
+﻿  about.cpp
+  ac_image.cpp
+  ac_string_util.cpp
+  acimg.cpp
+  acimg_bmp.cpp
+  acimg_dds.cpp
+  acimg_jpg.cpp
+  acimg_png.cpp
+  acimg_tga.cpp
+  acutil_config.cpp
+  acutil_path.cpp
+  acutil_unicode.cpp
+  acwin_dialog.cpp
+  acwin_filedialog.cpp
+  acwin_listview.cpp
+  acwin_static.cpp
+  acwin_statusbar.cpp
+  acwin_window.cpp
+  charwin.cpp
+  choosefont.cpp
+  Generating Code...
+  Compiling...
+  dynamic_funcs.cpp
+  exportdlg.cpp
+  fontchar.cpp
+  fontgen.cpp
+  fontpage.cpp
+  iconimagedlg.cpp
+  imagemgr.cpp
+  imagewnd.cpp
+  main.cpp
+f:\projects\bmfont\code\source\main.cpp(106): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(240): note: see declaration of 'freopen'
+f:\projects\bmfont\code\source\main.cpp(107): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+  c:\program files (x86)\windows kits\10\include\10.0.10150.0\ucrt\stdio.h(240): note: see declaration of 'freopen'
+  unicode.cpp
+  Generating Code...
+about.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+  libpng16.lib(pngread.obj) : MSIL .netmodule or module compiled with /GL found; restarting link with /LTCG; add /LTCG to the link command line to improve linker performance
+about.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:LBR' specification
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  Finished generating code
+libpng16.lib(pngread.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngread.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngwrite.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngwrite.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngerror.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngerror.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(png.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(png.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngtrans.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngtrans.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngget.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngget.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngset.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngset.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngrio.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngrio.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngrutil.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngrutil.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngrtran.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngrtran.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngmem.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngmem.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngwutil.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngwutil.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngwio.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngwio.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libpng.pdb'; linking object as if no debug info
+libpng16.lib(pngwtran.obj) : warning LNK4099: PDB 'libpng.pdb' was not found with 'libpng16.lib(pngwtran.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libpng.pdb'; linking object as if no debug info
+jpeg.lib(jerror.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jerror.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jcapimin.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jcapimin.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jdapimin.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jdapimin.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jdatadst.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jdatadst.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jdatasrc.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jdatasrc.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jcparam.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jcparam.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jcapistd.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jcapistd.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jdapistd.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jdapistd.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jcomapi.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jcomapi.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jutils.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jutils.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jmemmgr.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jmemmgr.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jcmarker.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jcmarker.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jdmarker.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jdmarker.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jdinput.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jdinput.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jcinit.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jcinit.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jdmaster.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jdmaster.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jmemnobs.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jmemnobs.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jcarith.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jcarith.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jcprepct.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jcprepct.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jcsample.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jcsample.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jcmainct.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jcmainct.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jcmaster.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jcmaster.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jccoefct.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jccoefct.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jccolor.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jccolor.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jchuff.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jchuff.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jcdctmgr.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jcdctmgr.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jquant1.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jquant1.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jdmerge.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jdmerge.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jdsample.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jdsample.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jdhuff.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jdhuff.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jquant2.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jquant2.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jdarith.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jdarith.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jdcoefct.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jdcoefct.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jdcolor.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jdcolor.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jdmainct.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jdmainct.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jddctmgr.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jddctmgr.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jdpostct.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jdpostct.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jaricom.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jaricom.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jfdctint.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jfdctint.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jfdctfst.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jfdctfst.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jfdctflt.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jfdctflt.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jidctint.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jidctint.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jidctfst.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jidctfst.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+jpeg.lib(jidctflt.obj) : warning LNK4099: PDB 'jpeg.pdb' was not found with 'jpeg.lib(jidctflt.obj)' or at 'F:\Projects\BMFont\code\source\Debug\jpeg.pdb'; linking object as if no debug info
+libsquish.lib(alpha.obj) : warning LNK4099: PDB 'libsquish.pdb' was not found with 'libsquish.lib(alpha.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libsquish.pdb'; linking object as if no debug info
+libsquish.lib(clusterfit.obj) : warning LNK4099: PDB 'libsquish.pdb' was not found with 'libsquish.lib(clusterfit.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libsquish.pdb'; linking object as if no debug info
+libsquish.lib(colourblock.obj) : warning LNK4099: PDB 'libsquish.pdb' was not found with 'libsquish.lib(colourblock.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libsquish.pdb'; linking object as if no debug info
+libsquish.lib(colourfit.obj) : warning LNK4099: PDB 'libsquish.pdb' was not found with 'libsquish.lib(colourfit.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libsquish.pdb'; linking object as if no debug info
+libsquish.lib(colourset.obj) : warning LNK4099: PDB 'libsquish.pdb' was not found with 'libsquish.lib(colourset.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libsquish.pdb'; linking object as if no debug info
+libsquish.lib(maths.obj) : warning LNK4099: PDB 'libsquish.pdb' was not found with 'libsquish.lib(maths.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libsquish.pdb'; linking object as if no debug info
+libsquish.lib(rangefit.obj) : warning LNK4099: PDB 'libsquish.pdb' was not found with 'libsquish.lib(rangefit.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libsquish.pdb'; linking object as if no debug info
+libsquish.lib(singlecolourfit.obj) : warning LNK4099: PDB 'libsquish.pdb' was not found with 'libsquish.lib(singlecolourfit.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libsquish.pdb'; linking object as if no debug info
+libsquish.lib(squish.obj) : warning LNK4099: PDB 'libsquish.pdb' was not found with 'libsquish.lib(squish.obj)' or at 'F:\Projects\BMFont\code\source\Debug\libsquish.pdb'; linking object as if no debug info
+  bmfont.vcxproj -> F:\Projects\BMFont\code\source\Debug\bmfont.exe
+  bmfont.vcxproj -> .\Debug/bmfont.pdb (Full PDB)
