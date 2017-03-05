@@ -43,6 +43,7 @@
 #include "acutil_unicode.h"
 #include "acutil_path.h"
 #include "acwin_window.h"
+#include "ex_jsxgen.h" //extentions by tsinglee
 
 using namespace std;
 using namespace acWindow;
@@ -2113,6 +2114,14 @@ int CFontGen::SaveFont(const char *szFile)
 			acImage::SavePng(str.c_str(), image);
 		else if( textureFormat == "dds" )
 			acImage::SaveDds(str.c_str(), image, textureCompression);
+	}
+
+	// save jsx file for photoshop by tsinglee
+	if (pages.size() > 0)
+	{
+		ExJsxGen jsxGen;
+		CFontPage *page = pages[pages.size() - 1];
+		jsxGen.GenJsxFile(filename, outWidth, page->pageHeights, fontSize, paddingDown + paddingUp, spacingVert);
 	}
 
 	return 0;

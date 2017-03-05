@@ -61,6 +61,8 @@ public:
 
 	cImage *GetPageImage();
 
+	std::vector<int>	pageHeights;//added by tsinglee, extentions for saving javascript file used to photoshop automatic actions
+
 protected:
 	void    AddChar(int x, int y, CFontChar *ch, int channel);
 	int     AddChar(CFontChar *ch, int channel);

@@ -53,6 +53,7 @@ CFontPage::CFontPage(CFontGen *gen, int id, int width, int height, int spacingH,
 	heights[1] = 0;
 	heights[2] = 0;
 	heights[3] = 0;
+	pageHeights.clear();
 
 	currX = 0;
 
@@ -116,8 +117,23 @@ void CFontPage::AddChar(int cx, int cy, CFontChar *ch, int channel)
 	{
 		int tempX = x + cx;
 		if( tempX < 0 ) tempX += pageImg->width;
-		if( cy + img->height + spacingV + paddingUp + paddingDown > heights[channel][tempX] )
+		if( cy + img->height + spacingV + paddingUp + paddingDown > heights[channel][tempX])
+		{
 			heights[channel][tempX] = cy + img->height + spacingV + paddingUp + paddingDown;
+			if (channel == 0)
+			{
+				bool bContains = false;
+				for (int i = 0; i < pageHeights.size(); i++)
+				{
+					if (pageHeights[i] == heights[channel][tempX])
+					{
+						bContains = true;
+						break;
+					}
+				}
+				if (!bContains) pageHeights.push_back(heights[channel][tempX]);
+			}
+		}
 	}
 
 	chars.push_back(ch);
